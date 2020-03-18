@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NewsContainer from "../NewsContainer/NewsContainer"
 import Menu from "../Menu/Menu"
+import SearchForm from "../SearchForm/SearchForm"
 import local from '../../data/local';
 import health from '../../data/health';
 import entertainment from '../../data/entertainment';
@@ -32,6 +33,7 @@ class App extends Component {
       <main>
         <h1><span>What's</span> New?</h1>
         <Menu articleTopics={this.articleTopics} currentNewsType={this.currentNewsType}/>
+        <SearchForm currentTopic={this.state.news} filterTopic={this.currentNewsType}/>
         <NewsContainer newsData={this.state.news} />
       </main>
     );
