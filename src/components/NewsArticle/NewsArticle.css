@@ -4,7 +4,7 @@
   flex-direction: column;
   border: 1px solid black;
   min-width: 25em;
-  height: 35em;
+  min-height: 33em;
   margin: 2em;
   padding: 1em;
 }

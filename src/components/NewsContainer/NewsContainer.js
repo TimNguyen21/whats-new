@@ -2,7 +2,6 @@ import React from 'react';
 import NewsArticle from "../NewsArticle/NewsArticle"
 import './NewsContainer.css'
 
-// NEWSCONTAINER COMPONENT CODE GOES HERE
 const NewsContainer = (props) => {
   return(
     <section className="news-container">
