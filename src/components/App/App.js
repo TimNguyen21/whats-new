@@ -30,14 +30,10 @@ class App extends Component {
   render () {
     return (
       <main>
-      <h1>What's New</h1>
-      <Menu articleTopics={this.articleTopics} currentNewsType={this.currentNewsType}/>
-      <section>
-      <NewsContainer newsData={this.state.news} />
-      </section>
+        <h1><span>What's</span> New?</h1>
+        <Menu articleTopics={this.articleTopics} currentNewsType={this.currentNewsType}/>
+        <NewsContainer newsData={this.state.news} />
       </main>
-
-
     );
   }
 }
