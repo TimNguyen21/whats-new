@@ -11,8 +11,16 @@ class SearchForm extends Component {
     }
   }
 
-  filteredTopic = () => {
+  updateState = (event) => {
+    this.setState({[event.target.name]: event.target.value})
+  }
 
+  filteredTopic = (event) => {
+    event.preventDefault();
+    const currentSearchWord = this.state.searchWord.toLowerCase();
+    const filteredTopic = this.props.currentTopic.filter(topic => topic.headline.toLowerCase().includes(currentSearchWord));
+    this.props.filterTopic(filteredTopic);
+    this.setState({searchWord: ""})
   }
 
   render() {
@@ -24,7 +32,7 @@ class SearchForm extends Component {
         onChange={this.updateState}
         value={this.state.searchWord}
         />
-        <button>Search</button>
+        <button onClick={this.filteredTopic}>Search</button>
       </form>
     )
   }
