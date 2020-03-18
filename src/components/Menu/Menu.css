@@ -2,6 +2,7 @@ nav {
   display: flex;
   justify-content: space-around;
   margin: 2em;
+  border-bottom: 0.01em solid #F9C36A;
 }
 
 nav button {
