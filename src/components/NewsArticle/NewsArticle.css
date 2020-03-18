@@ -2,14 +2,15 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  border: 0.5em solid #F9C36A;
+  border: 0.3em solid #F9C36A;
   min-width: 25em;
   min-height: 33em;
-  margin: 2em;
+  margin: 1em 2em 2em;
   padding: 1em;
   background-color: white;
 }
 
+.article-card img,
 .article-card h3,
 .article-card p,
 .article-card a {
