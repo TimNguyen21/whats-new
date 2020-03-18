@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 2em;
+}
+
+nav button {
+  width: 7em;
+  height: 3em;
+  border-radius: 1em;
+  font-size: 1em;
+  margin: 0em 1em 1em 1em;
+}

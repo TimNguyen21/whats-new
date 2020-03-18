@@ -6,8 +6,13 @@
 
 .app {
   display: flex;
-  background: #141527;
+  /* background: #141527; */
   height: 100vh;
   text-align: center;
   width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1em;
 }
