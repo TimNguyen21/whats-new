@@ -4,7 +4,7 @@
   flex-direction: column;
   border: 0.3em solid #F9C36A;
   min-width: 25em;
-  min-height: 33em;
+  height: auto;
   margin: 1em 2em 2em;
   padding: 1em;
   background-color: white;
