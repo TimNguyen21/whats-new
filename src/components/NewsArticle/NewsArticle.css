@@ -12,9 +12,12 @@
 
 .article-card img,
 .article-card h3,
-.article-card p,
-.article-card a {
+.article-card p {
   background-color: white;
+}
+
+.article-card a {
+  background-color: #F9C36A;
 }
 
 .article-card a {
@@ -25,6 +28,14 @@
 .article-img {
   width: 100%;
   height: 20em;
+}
+
+.article-link {
+  border: 1px solid #04054E;
+  background-color: black;
+  color: #04054E;
+  border-radius: 0.5em;
+  padding: 0.5em;
 }
 
 @media screen and (max-width: 900px) {
