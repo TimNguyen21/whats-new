@@ -20,10 +20,10 @@ Users of the application is able to view various News Topics from Local to Enter
 #### Page Responsiveness
 
 ##### Desktop Version
-![Desktop version]()
+![Desktop version](https://user-images.githubusercontent.com/52939140/77120711-62197a00-6a31-11ea-826b-791b28b339d9.png)
 
-##### Mobile Version
-![Mobile version]()
+##### Mobile/Tablet Version
+![Mobile/Tablet version](https://user-images.githubusercontent.com/52939140/77120733-6cd40f00-6a31-11ea-9523-3c634159556f.png)
 
 #### Project Next Steps
 In the creation of this project, I had focused mainly on functionality of displaying news topics based on user’s selected topics.  In this application, news articles are in a local database.  I would like to add more functionality where news articles are updated from a server where articles are up-to-date and with new content.
