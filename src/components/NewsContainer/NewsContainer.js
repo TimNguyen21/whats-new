@@ -19,7 +19,6 @@ const NewsContainer = (props) => {
       )
     }
     </section>
-
   )
 }
 

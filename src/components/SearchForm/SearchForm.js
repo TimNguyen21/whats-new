@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './SearchForm.css';
 
-// SEARCHFORM COMPONENT CODE GOES HERE
-
 class SearchForm extends Component {
   constructor(props) {
     super();
@@ -12,7 +10,7 @@ class SearchForm extends Component {
   }
 
   updateState = (event) => {
-    this.setState({[event.target.name]: event.target.value})
+    this.setState({searchWord: event.target.value})
   }
 
   filteredTopic = (event) => {
@@ -36,7 +34,6 @@ class SearchForm extends Component {
       </form>
     )
   }
-
 
 }
 
