@@ -24,4 +24,8 @@
   - [ ] SearchForm.js
   - [ ] SearchForm.css
 #### test directory
-- [ ] n/a
+- [ ] App.test.js
+- [ ] Menu.test.js
+- [ ] NewsArticle.test.js
+- [ ] NewContainer.test.js
+- [ ] SearchForm.test.js
