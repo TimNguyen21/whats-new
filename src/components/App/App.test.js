@@ -70,5 +70,17 @@ describe('App', () => {
     expect(getByText("Download the updated Pixel Launcher from the Pixel 4"))
       .toBeInTheDocument();
   });
-  
+
+  it('can display article based on keyword search', () => {
+    const { getByPlaceholderText, getByText } = render(<App />);
+    const entertainmentButton = getByText("Entertainment");
+
+    fireEvent.click(entertainmentButton);
+    fireEvent.change(getByPlaceholderText("Search Article"), {target: {value: "Spider"}})
+    fireEvent.click(getByText("Search"));
+
+    expect(getByText("Spider-Man Will Remain in the Marvel Cinematic Universe"))
+      .toBeInTheDocument();
+  });
+
 });
