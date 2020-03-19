@@ -16,8 +16,8 @@ describe("NewsArticle", () => {
       const headlineElement = getByText("Housing Market Crash?");
       const descriptionElement = getByText("Statics shows that there will be a housng market Crash based ...");
 
-      expect(headlineElement).toBeInTheDocument()
-      expect(descriptionElement).toBeInTheDocument()
+      expect(headlineElement).toBeInTheDocument();
+      expect(descriptionElement).toBeInTheDocument();
 
   })
 

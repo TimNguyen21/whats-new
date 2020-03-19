@@ -31,10 +31,10 @@ describe("NewsContainer", () => {
     const descriptionElement1 = getByText("The web slinger will be the only superhero ...");
     const descriptionElement2 = getByText("While the larger conversation around Todd Phillips ...");
 
-    expect(headlineElement1).toBeInTheDocument()
-    expect(headlineElement2).toBeInTheDocument()
-    expect(descriptionElement1).toBeInTheDocument()
-    expect(descriptionElement2).toBeInTheDocument()
+    expect(headlineElement1).toBeInTheDocument();
+    expect(headlineElement2).toBeInTheDocument();
+    expect(descriptionElement1).toBeInTheDocument();
+    expect(descriptionElement2).toBeInTheDocument();
   })
 
 })

@@ -38,7 +38,7 @@ describe("SearchForm", () => {
       img: 'https://static01.nyt.com/images/...',
       description: 'The web slinger will be the only superhero ...',
       url: 'https://www.nytimes.com/...'
-    }])
+    }]);
   })
 
 })

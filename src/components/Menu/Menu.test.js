@@ -75,7 +75,7 @@ describe("Menu", () => {
         description: 'The number of people getting virus ...',
         url: 'https://io9.gizmodo.com/...'
       }
-    ])
+    ]);
   })
 
   it("should display Local article based on Local Button clicked", () => {
@@ -103,7 +103,7 @@ describe("Menu", () => {
         description: 'While the larger conversation around Todd Phillips ...',
         url: 'https://io9.gizmodo.com/...'
       }
-    ])
+    ]);
   })
 
 })
