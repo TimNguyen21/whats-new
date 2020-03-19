@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, fireEvent } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import '@testing-library/jest-dom'
 import NewsArticle from './NewsArticle';
 
@@ -7,7 +7,6 @@ describe("NewsArticle", () => {
   it("should display the news article information", () => {
     const { getByText } = render(<NewsArticle
         id={5}
-        key={5}
         img={"http://article.img"}
         headline={"Housing Market Crash?"}
         description={"Statics shows that there will be a housng market Crash based ..."}
