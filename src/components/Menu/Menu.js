@@ -3,7 +3,7 @@ import './Menu.css'
 
 const Menu = (props) => {
   const navMenu = props.articleTopics.map(topic => (
-    <button onClick={() => props.currentNewsType(topic.data)}>{topic.title}</button>
+    <button key={topic.title} onClick={() => props.currentNewsType(topic.data)}>{topic.title}</button>
   ))
 
   return(
