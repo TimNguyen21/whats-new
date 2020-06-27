@@ -1,5 +1,11 @@
 language: node_js
 node_js:
-  - "node"
+- node
 notifications:
   email: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: QCvi1Br4su1mjgAWlOG4QPHqSqSM4jgeWw/mTdwdLHoOaHaquC6DrXHZOwDREVJkiwl2VLo140tnbkXhmXrGyWYS8Ep/zUMZrRXS2NsHHB/IfYcalwXJB0VDFE9quaP18iv7BU1uknLmqLe2d/1bGn8StoSecIuB2m8Muo4VLO+p2QWFq2qfls3Gg2xUhLYy+JjV1q2pfm0cVhTECo+C0Vj00FMDuAWH3wFMGjTnbLrkjNHDVk+XQv3lh8/f3SZlWucqqTjCFo4Oe5K34dRPeL4tJaVPQywLi5fF5ABznzi1EN7bYGFqS3MyMiPCPuY8ETCebzF9qhmjX8aY97IPD7VtOBp7KETUkt+gvMiTb/5rtcwQk2eu0AlhWMMaL3TkcdROSOsvuvB5H0N762ei81x8NwOeK6YaLxtfe/n3ZDkwL1ToGHqUbT16RFS35K+wMgLw8PNrYE+hMrkdss/XtgxuNbrDyI9xlhveos+oEypccLCGxts/BQ9wPk1EYooEMzlE+zDArUk7Mry8DqisBfqiZqeU+87L0TcnqLijID5+OJ9KCSEBNflT0AsX3JLA12BC4Ma/zczm43pXHpSUReh8ST3kBankfzuDaCdwWx+bLAVJy21bXu/9aLDN5vN67EC91Ec0Pi9KrKebsh/7odBYNIQJYFq0sLjHOIB55e8=
+  app: whats-news-tim
+  skip_cleanup: true
